@@ -29,6 +29,149 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 # PROGRAM:
+``
+cover.html
+<html>
+    <head>
+        <title>flexbox</title>
+         <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+        <div class="best">
+              <div class="container">
+             <h1>ABOUT THE BOOK</h1>
+             <hr></hr>
+             <P>
+               <span class="highlight>">"The C Programming Language”</span>by Brian W. Kernighan and Dennis Ritchie is one of the most influential technology books in computer science. 
+               It introduces the C language, which is the foundation for many modern technologies, operating systems, and programming languages (like C++, Java, Python interpreters, and more).
+               
+             </P>
+         </div>
+         <div class="items">
+             <p>
+             “The C Programming Language is a timeless guide that shaped the way modern programming is taught.”
+             </p>
+         </div>
+         <div class="author">
+             <img src="1.jpg" alt="Author" class="profile-img">
+            
+             <div>
+                 <h2>R SIVA</h2>
+                 <p>
+                 Siva is a dedicated student pursuing Cybersecurity at Saveetha College. He is interested in modern security technologies and enjoys learning how to protect systems, networks, and data from digital threats.
+                 
+                 </p>
+             </div>
+         </div>
+
+         <div class="footer">
+             <span class="publish"> World viewer, Publishers</span>
+             <span class="price">Price: ₹499</span>
+             <br>
+              <span class="printed">PRINTED IN INDIA</span>
+         </div>
+         </div>
+        
+    </body>
+    <body>
+        <h2 class="me">SIVA R (25007668)</h2>
+    </body>
+</html>
+style.css
+body
+{
+    width: 40%;
+    height: 85% ;
+}
+.best
+{           
+    border:  solid 6px black;
+    
+    height: 95% ;
+    padding: 25px;
+    background-image: url(2.png) ;
+    background-size: cover;
+    margin: 60px auto;
+    position:relative;
+    left:400px;
+    top:0%
+    
+   
+}
+.container
+{
+  text-align: left 80px;
+  text-align: top  10% ;
+}
+.items
+{
+         
+        
+    
+    width: 70%;
+    background-color: silver;
+    border-left: solid 6px black;
+    padding: 25px;
+    margin: 60px auto;
+    position:relative;
+    left:-59;
+    top:-40;
+            
+        
+}
+.author
+{   
+    
+    
+    width: 80%;
+    height:20%;
+    background-color: silver;
+    border-radius: 5%;
+    padding: 25px;
+    margin: 60px ;
+    display: flex;
+    gap:12px;
+    position:relative;
+    left:-50;
+    top:-80;
+    
+    
+
+    
+}
+
+
+.profile-img
+ {
+    width: 60px;
+    height: 60px;
+   
+}
+.footer
+{
+    width: 80%;
+    height: 2%;
+    background-color: yellow;
+    padding: 25px;
+    margin: 60px auto;
+    position:relative;
+    left: -10px;
+    bottom: 86px;
+}
+.me
+{
+    background-color: aquamarine ;
+    
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    left:400px;
+
+}
+``
 # OUTPUT:
+<img width="1080" height="768" alt="image" src="https://github.com/user-attachments/assets/bfe161eb-e55e-4ae7-b700-66766b4bd8a0" />
+
 # RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
